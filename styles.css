@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #6a11cb;
+    background: linear-gradient(to right, rgba(106,17,203,0.9), rgba(37,117,252,0.9));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.app {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.app h1 {
+    font-size: 25px;
+    color: #333;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz-header {
+    margin-bottom: 20px;
+}
+
+.timer {
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.timer span:last-child {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.progress {
+    background: #e0e0e0;
+    border-radius: 5px;
+    height: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    width: 0%;
+    transition: width 0.3s;
+}
+
+#question {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.btn {
+    background: #fff;
+    color: #333;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: #6a11cb;
+    color: #fff;
+    border-color: #6a11cb;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+.correct {
+    background: #2ecc71;
+    color: #fff;
+    border-color: #2ecc71;
+}
+
+.wrong {
+    background: #e74c3c;
+    color: #fff;
+    border-color: #e74c3c;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.start-btn, .next-btn, .restart-btn {
+    background: #6a11cb;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.start-btn:hover, .next-btn:hover, .restart-btn:hover {
+    background: #2575fc;
+}
+
+.hide {
+    display: none;
+}
+
+#result {
+    text-align: center;
+}
+
+#result h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#result p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+#result span {
+    font-weight: bold;
+}
