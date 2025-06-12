@@ -1,38 +1,92 @@
 const questions = [
     {
-        question: "What is the capital of France?",
+        question: "भारत के राष्ट्रपिता किसे कहा जाता है?",
         answers: [
-            { text: "London", correct: false },
-            { text: "Paris", correct: true },
-            { text: "Berlin", correct: false },
-            { text: "Madrid", correct: false }
+            { text: "जवाहरलाल नेहरू", correct: false },
+            { text: "महात्मा गांधी", correct: true },
+            { text: "सुभाष चंद्र बोस", correct: false },
+            { text: "सरदार पटेल", correct: false }
         ]
     },
     {
-        question: "Which planet is known as the Red Planet?",
+        question: "विश्व की सबसे लंबी नदी कौन सी है?",
         answers: [
-            { text: "Venus", correct: false },
-            { text: "Mars", correct: true },
-            { text: "Jupiter", correct: false },
-            { text: "Saturn", correct: false }
+            { text: "अमेजन", correct: false },
+            { text: "नील", correct: true },
+            { text: "गंगा", correct: false },
+            { text: "यांग्त्से", correct: false }
         ]
     },
     {
-        question: "What is the largest mammal?",
+        question: "भारत का राष्ट्रीय पशु कौन है?",
         answers: [
-            { text: "Elephant", correct: false },
-            { text: "Blue Whale", correct: true },
-            { text: "Giraffe", correct: false },
-            { text: "Hippopotamus", correct: false }
+            { text: "सिंह", correct: false },
+            { text: "बाघ", correct: true },
+            { text: "हाथी", correct: false },
+            { text: "चित्ता", correct: false }
         ]
     },
     {
-        question: "Which language runs in a web browser?",
+        question: "भारत के पहले राष्ट्रपति कौन थे?",
         answers: [
-            { text: "Java", correct: false },
-            { text: "C", correct: false },
-            { text: "Python", correct: false },
-            { text: "JavaScript", correct: true }
+            { text: "डॉ. राजेन्द्र प्रसाद", correct: true },
+            { text: "डॉ. भीमराव अंबेडकर", correct: false },
+            { text: "जवाहरलाल नेहरू", correct: false },
+            { text: "सर्वपल्ली राधाकृष्णन", correct: false }
+        ]
+    },
+    {
+        question: "विश्व का सबसे बड़ा महाद्वीप कौन सा है?",
+        answers: [
+            { text: "अफ्रीका", correct: false },
+            { text: "एशिया", correct: true },
+            { text: "यूरोप", correct: false },
+            { text: "ऑस्ट्रेलिया", correct: false }
+        ]
+    },
+    {
+        question: "भारत का गुलाबी शहर कौन सा है?",
+        answers: [
+            { text: "जोधपुर", correct: false },
+            { text: "जयपुर", correct: true },
+            { text: "उदयपुर", correct: false },
+            { text: "बीकानेर", correct: false }
+        ]
+    },
+    {
+        question: "सौरमंडल का सबसे गर्म ग्रह कौन सा है?",
+        answers: [
+            { text: "बुध", correct: false },
+            { text: "शुक्र", correct: true },
+            { text: "मंगल", correct: false },
+            { text: "बृहस्पति", correct: false }
+        ]
+    },
+    {
+        question: "बल्ब का आविष्कार किसने किया?",
+        answers: [
+            { text: "आइज़क न्यूटन", correct: false },
+            { text: "अल्बर्ट आइंस्टीन", correct: false },
+            { text: "थॉमस एडिसन", correct: true },
+            { text: "निकोला टेस्ला", correct: false }
+        ]
+    },
+    {
+        question: "क्षेत्रफल की दृष्टि से भारत का सबसे छोटा राज्य कौन सा है?",
+        answers: [
+            { text: "गोवा", correct: true },
+            { text: "सिक्किम", correct: false },
+            { text: "त्रिपुरा", correct: false },
+            { text: "मणिपुर", correct: false }
+        ]
+    },
+    {
+        question: "पौधे प्रकाश संश्लेषण में कौन सी गैस उपयोग करते हैं?",
+        answers: [
+            { text: "ऑक्सीजन", correct: false },
+            { text: "कार्बन डाइऑक्साइड", correct: true },
+            { text: "नाइट्रोजन", correct: false },
+            { text: "हाइड्रोजन", correct: false }
         ]
     }
 ];
