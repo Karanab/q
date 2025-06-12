@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Awesome Quiz</h1>
+        <div class="quiz">
+            <div class="quiz-header">
+                <div class="timer">
+                    <span>Time Left: </span>
+                    <span id="time">00:00</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+            </div>
+            
+            <div id="question-container" class="hide">
+                <h2 id="question">Question</h2>
+                <div id="answer-buttons" class="btn-grid">
+                    <!-- Answers will appear here -->
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button id="start-btn" class="start-btn btn">Start Quiz</button>
+                <button id="next-btn" class="next-btn btn hide">Next</button>
+            </div>
+            
+            <div id="result" class="hide">
+                <h2>Quiz Completed!</h2>
+                <p>Your Score: <span id="score">0</span>/<span id="total">0</span></p>
+                <p>Correct: <span id="correct">0</span> | Wrong: <span id="wrong">0</span></p>
+                <p>Time Taken: <span id="time-taken">0</span> seconds</p>
+                <button id="restart-btn" class="restart-btn btn">Restart Quiz</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
