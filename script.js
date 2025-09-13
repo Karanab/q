@@ -296,7 +296,7 @@ let score = 0;
 let wrongAnswers = 0;
 let timer, timeLeft, quizStartTime;
 
-const QUIZ_DURATION = 60; // सेकंड में
+const QUIZ_DURATION = 2000; // सेकंड में
 
 // --- Event Listeners ---
 startButton.addEventListener('click', startGame);
